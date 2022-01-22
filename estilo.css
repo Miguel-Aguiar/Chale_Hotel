@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+#container {
+	margin: 15px auto;
+	min-width: 750px;
+	max-width: 1180px;
+	background: url(img/bg-container.png) repeat-y center top;
+}
+
+#topo {
+	position: relative;
+	height: 250px;
+}
+
+#area-logo {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	background: url(img/topo-imagem-principal.png) no-repeat;
+	top: 0;
+	left: 0;
+}
+
+.logo a {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	text-indent: -1000px;
+	background: url(img/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+}
+
+#area-menu {
+	position: absolute;
+	width: 450px;
+	height: 250px;
+	background: url(img/topo-imagem-lateral.png) no-repeat;
+	top: 0;
+	right: 0;
+}
+
+#conteudo-menu {
+	margin: 15px 15px 15px 90px;
+}
+
+#menu-locais {
+	border-top: 1px solid #C0B874;
+	border-bottom: 1px solid #C0B874;
+	padding: 5px;
+	font-size: 0.8em;
+	color: #9C9556;
+}
+
+a {
+	text-decoration: none;
+	padding: 0.3em;
+}
+
+#menu-locais a {
+	text-transform: uppercase;
+	background-color: #A19956;
+	color: #ECE6A2;
+}
+
+.locais {
+	float: left;
+	line-height: 25px;
+}
+
+.reservar {
+	float: right;
+}
+
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul#navegacao {
+	float: left;
+}
+
+#menu #navegacao a {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	color: #7C7237;
+	padding: 5px;
+	line-height: 30px;
+}
+
+#menu #navegacao a:hover {
+	background-color: #FDF8C0;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+#principal {
+	float: left;
+	width: 50%;
+	background: #EFEACE url(img/bg-area-principal.png) repeat-x;
+}
+
+#secundario {
+	float: left;
+	width: 50%;
+	background: #DEDBB8 url(img/bg-area-lateral.png) repeat-x;
+}
+
+#conteudo-principal{
+	margin: 20px;
+}
+
+#conteudo-secundario{
+	margin: 20px;
+}
+
+#conteudo-principal h2 {
+	font-size: 1.2em;
+	color: #80794A;
+}
+
+#conteudo-principal p {
+	font-size: 0.9em;
+	color: #000;
+	margin-top: 10px;
+}
+
+#lista-secundario li {
+	border-bottom: 1px solid #f3edcb;
+	height: 6em;
+	padding: 8px;
+}
+
+#lista-secundario img {
+	float: left;
+	margin-right: 10px;
+}
+
+#lista-secundario h3 {
+	font-size: 1.0em;
+	color: #60613E;
+	background: url(img/ornamento.png) no-repeat center right;
+}
+
+#lista-secundario p {
+	font-size: 0.8em;
+	color: #000;
+}
+
+#lista-secundario li:hover {
+	background: #f6f3d6;
+	cursor: pointer;
+}
+
+#rodape {
+	text-align: center;
+	clear: both;
+	padding: 16px;
+	background: #fff url(img/bg-rodape.png) repeat-x top;
+	color: #7d7640;
+}
